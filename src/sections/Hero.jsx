@@ -40,15 +40,17 @@ const Hero = () => {
             </motion.button>
           </a>
 
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            className="px-12 py-4 text-gray-400
+          <a href="https://docs.0xdavid.live">
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="px-12 py-4 text-gray-400
                      hover:text-white transition-colors duration-300
                      tracking-wider text-sm"
-          >
-            READ_DOCS
-          </motion.button>
+            >
+              READ_DOCS
+            </motion.button>
+          </a>
         </div>
       </motion.div>
     </header>
