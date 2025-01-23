@@ -9,11 +9,13 @@ import Faq from "./sections/Faq";
 import Cta from "./sections/Cta";
 import Benefits from "./sections/Benefits";
 import Note from "./sections/Note";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <div className="relative min-h-screen text-white overflow-hidden bg-black">
       <ParticleBackground />
+      <Analytics />
       <div className="relative z-0">
         <ScrollLines />
       </div>
